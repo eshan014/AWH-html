@@ -1,0 +1,23 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Frameset//EN" "http://www.w3.org/TR/html4/frameset.dtd">
+<html>
+<head>
+    <title>HTML 4.01 Two Frames Layout</title>
+</head>
+
+<!-- This splits the screen into a 30% left column and a 70% right column -->
+<frameset rows="50%, 50%">
+    <!-- Left Frame: Sidebar navigation -->
+    <frame src="college.html">
+    
+    <!-- Right Frame: Main content area (named "content-frame") -->
+    <frame src="" name="content-frame">
+    
+    <!-- Optional fallback for browsers that don't support frames -->
+    <noframes>
+        <body>
+            <p>Your browser does not support frames.</p>
+        </body>
+    </noframes>
+</frameset>
+
+</html>
